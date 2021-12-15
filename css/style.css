@@ -164,7 +164,7 @@ html {
 .form  {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     padding-top: 30px;
 }
@@ -172,13 +172,14 @@ html {
 .form__input {
     max-width: 350px;
     width: 100%; 
+    font-size: 24px;
  }
  .input__group {
-     width: 45%;  
+     width: 60%;  
      display: flex;
      justify-content: space-between;
      align-items: center;
-     font-size: 18px;
+     font-size: 24px;
      margin-bottom: 20px;
  }
  .form > .buttons {
