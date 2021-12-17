@@ -49,7 +49,7 @@ html {
     left: 0;
     padding-top: 20px;
     padding-bottom: 20px;
-    background: rgba(0, 0, 0, 0.7);
+    background: rgba(0, 0, 0, 0.8);
     z-index: 999;
 }
 .header a, .footer a {
@@ -98,7 +98,8 @@ html {
     margin-top: -61px;
     padding-top: 200px;
     padding-bottom: 400px;
-    background: url('../images/promotions/promotion1.jpg') no-repeat center /cover;
+    background: url('../images/people/5.jpg') no-repeat center /cover;
+    
 
 }
 .promo::after {
@@ -108,7 +109,7 @@ html {
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.6);
+    background: rgba(256, 256, 256, 0.5);
 }
 .promo__block {
     position: relative;
@@ -121,6 +122,7 @@ html {
     align-items: center;
     margin-left: 250px;
     color: goldenrod;
+   
 }
 .promo__title {
     font-size: 48px;
@@ -133,8 +135,18 @@ html {
 
 .text_promo {
     font-size: 20px;
-    color:goldenrod;
-   
+    color:black;
+    letter-spacing:0.2ex;
+    font-weight: bold;
+      
+}
+.comment__card {
+    border: 1px solid azure;
+    border-radius: 20px;
+}
+.comment__card > strong {
+    color: blue;
+    font-size: 22px;
    
 }
 .promo_card {
@@ -142,12 +154,13 @@ html {
     z-index: 998;
     display: flex;
     flex-direction: row;
-    
     justify-content: space-between;
     align-items: flex-start;
     max-width: 100%;
     width: 100%;
     padding-top: 20px;
+    
+  
     
 }
 .buttons {
@@ -214,7 +227,7 @@ html {
     background: rgba(0, 0, 0, 0.7);
     color: white;
     font-size: 18px;
-    background: url('../images/location/20.jpeg')  no-repeat center /cover;
+    background: url('../images/people/5.jpg')  no-repeat center /cover;
 }
 .info::after {
     position: absolute;
@@ -223,15 +236,20 @@ html {
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.7);
+   
 }
 .info-section__block {
     flex-direction: column;
     position: relative;
     z-index: 998;
+    min-height: 600px;
+    background: rgba(0, 0, 0, 0.4);
+    padding-bottom: 220px;
 }
 .target {
    font-size: 24px;
+   
+
 }
 .target >strong {
     color: aqua;
@@ -240,6 +258,7 @@ html {
 .info_block {
     flex-direction: column;
     align-items: center;
+    
 }
 .info .section__title {
     text-align: center;
@@ -251,18 +270,19 @@ html {
     flex-wrap: wrap;
 }
 .comments__block {
-    width: 30%;
+    width: 33%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+  
     
 }
 .comment__card {
     width: 30%;
-    padding: 20px 20px 20px 20px;
+    padding: 10px 10px 10px 10px;
     
    
-   
+ 
 }
 .card__img-block {
     height: 200px;
@@ -280,6 +300,10 @@ html {
     text-align: justify;
     margin-top: 10px;
     margin-bottom: 20px;
+    letter-spacing:0.2ex;
+    font-style: italic;
+ 
+
 }
 .comments__block1 {
     width: 25%;
@@ -287,9 +311,10 @@ html {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
     text-align: start;
+    
     
 }
 .card__img-area {
@@ -318,4 +343,237 @@ html {
     font-size: 18px;
     padding-top: 5px;padding-bottom: 5px;
     border-radius: 5px;
+}
+/*Результат поиска*/
+.result {
+    position: relative;
+    margin-top: -60px;
+    padding-top: 400px;
+    padding-bottom: 200px;
+    max-width: 100%;
+    height: 100%;
+    background: url('../images/people/10.jpg') no-repeat center /cover;
+}
+
+.result__block {
+    position: relative;
+    z-index: 998;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /*background-color: rgba(256 256 256 / 0.50%);*/
+    display: flex;
+    flex-direction: column;
+    font-size: 24px;
+    background: rgba(256, 256, 256, 0.6);
+   
+   
+
+}
+.block_lokacii {
+    display:flex;
+    justify-content: space-between;
+    text-align: center;
+    flex-direction: row;
+    max-width: 100%;
+    width: 100%;
+}
+.result__locacia {
+    max-width: 24%;
+    width: 100%;
+    min-height: 350px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid aqua;
+    border-radius: 5px;
+    padding-bottom: 20px;
+   margin-top: 20px;
+
+}
+.group__result > h3 {
+  
+    font-size: 22px;
+    
+}
+.group__result > p {
+    font-size: 24px;
+}
+.group__result  {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.result_img {
+    max-width: 100%;
+    width: 100%;
+    max-height: 300px;
+}
+.imgloc{
+    max-width: 100%;
+}
+/*выбор зоны 2 страница*/
+
+.zones {
+    position: relative;
+    margin-top: -60px;
+    padding-top: 400px;
+    padding-bottom: 200px;
+    max-width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    color: ghostwhite;  
+    background: url('../images/people/2.jpg') no-repeat center /cover;
+    
+    
+}
+.zones__block {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    font-size: 24px;
+    background: rgba(0, 0, 0,  0.50);
+    padding-bottom: 30px;
+}
+.zones__block::after {
+    position: relative;
+    z-index: 99;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;  
+    
+}
+.zones__search {
+    max-width: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.zone{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    font-size: 20px;
+
+}
+.zone > h3 {
+    margin-right: 20px;
+
+}
+.block_zone {
+    max-width: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid goldenrod;
+    border-radius: 20px
+    ;
+    margin-top:  30px;
+}
+.block_name-zone {
+max-width: 80%;
+width: 100%;
+display: flex;
+justify-content: space-between;
+flex-direction: column;
+
+}
+/*бронирование*/
+.order {
+    position: relative;
+min-height: 100vh;
+padding-top: 300px;
+background: url('../images/people/8.jpg') no-repeat center /cover fixed;
+color: seashell;
+font-size: 18px;
+}
+
+.order::after {
+position: absolute;
+content: "";
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background:rgba(0, 0, 0, 0.4);
+
+}
+.order__block {
+position: relative;
+z-index: 2;
+flex-direction: column;
+align-items: start;
+}
+.bron {
+    color: aqua;
+}
+.rows__block {
+background: rgba(200, 200, 200, 0.4);
+width: 100%;
+padding-top: 40px;
+padding-bottom: 40px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+border-radius: 20px;
+margin-bottom: 40px;
+}
+.row {
+display: flex;
+align-items: center;
+justify-content: space-between;
+max-width: 950px;
+width: 100%;
+border: 1px solid goldenrod;;
+border-radius: 10px;
+padding: 10px;
+margin-bottom: 10px;
+}
+.title {
+font-size:32px ;
+max-width: 40%;
+
+}
+.desc_order {
+font-size: 26px;
+max-width: 40%;
+
+}
+.inputs {
+width: 80%;
+justify-content: start;
+
+
+font-size: 20px;
+}
+.order__input {
+margin-left: 25%;
+margin-right: 15px;
+}
+.input * {
+cursor: pointer; 
+}
+.mail{
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+.buttons {
+margin: 20px;
 }
